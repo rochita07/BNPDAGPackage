@@ -1,2 +1,4 @@
+^renv$
+^renv\.lock$
 ^BNPDAGPackage\.Rproj$
 ^\.Rproj\.user$
