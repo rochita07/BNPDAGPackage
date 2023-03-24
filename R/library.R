@@ -35,8 +35,11 @@ for (Package in required_Packages_Install) {
 }
 
 
+library(devtools)
 
 # Update renv  ----
+
+# library(devtools) -- to call any library -- as static -- renv updates all library in the lock file
 
 # renv::snapshot()  # to save the state of your project library.
 # TODO the above function doesn't reflect installed packages -- fix it later
